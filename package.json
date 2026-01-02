@@ -1,0 +1,25 @@
+{
+  "name": "financetracker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"cd backend && ./mvnw spring-boot:run\" \"cd frontend && npm run dev\""
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Peachy006/FinanceTracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Peachy006/FinanceTracker/issues"
+  },
+  "homepage": "https://github.com/Peachy006/FinanceTracker#readme",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
